@@ -3,11 +3,17 @@ body {
   color: #434455;
   background-color: #fff;
 }
+
 ul {
   list-style: none;
 }
+
 a {
   text-decoration: none;
+}
+
+button {
+  cursor: pointer;
 }
 
 .logo {
@@ -114,13 +120,15 @@ a {
 .team-title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.11111;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  text-transform: capitalize;
 }
 
 .team-list {
+  background-color: #ffffff;
 }
 
 .team-item {
@@ -153,10 +161,11 @@ a {
 .portfolio-title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.11111;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  text-transform: capitalize;
 }
 
 .portfolio-list {
