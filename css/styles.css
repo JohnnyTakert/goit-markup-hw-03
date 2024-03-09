@@ -224,8 +224,6 @@ button {
   display: flex;
   gap: 24px;
   padding-bottom: 120px;
-  padding-left: 156px;
-  padding-right: 156px;
 }
 
 .team-item {
@@ -271,15 +269,22 @@ button {
   text-align: center;
   color: #2e2f42;
   text-transform: capitalize;
+  padding-top: 120px;
+  padding-bottom: 72px;
 }
 
 .portfolio-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 48px 24px;
+  padding-bottom: 120px;
 }
 
 .portfolio-item {
 }
 
 .portfolio-image {
+  margin-bottom: 32px;
 }
 
 .portfolio-subtitle {
@@ -288,6 +293,7 @@ button {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  padding-bottom: 8px;
 }
 
 .portfolio-item-text {
@@ -296,6 +302,7 @@ button {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  padding-bottom: 32px;
 }
 
 footer {
