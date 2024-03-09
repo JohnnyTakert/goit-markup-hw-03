@@ -138,13 +138,17 @@ button {
 }
 
 .business-service-btn {
+  padding: 16px 32px;
   background: #4d5ae5;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #fff;
+  border-radius: 4px;
+  border: none;
 }
+
 .business-service-btn:hover,
 .business-service-btn:focus {
   background-color: #404bbf;
@@ -167,7 +171,6 @@ button {
 }
 
 .content-wrap {
-  display: flex;
   padding-top: 120px;
   padding-bottom: 120px;
 }
@@ -183,8 +186,6 @@ button {
 }
 
 .content-item {
-  display: flex;
-  flex-direction: column;
   width: calc((100% - 3 * 24px) / 4);
 }
 
@@ -194,7 +195,7 @@ button {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  width: 264px;
+  margin-bottom: 8px;
 }
 
 .content-item-text {
@@ -217,13 +218,21 @@ button {
   text-align: center;
   color: #2e2f42;
   text-transform: capitalize;
+  padding-top: 120px;
+  padding-bottom: 72px;
 }
 
 .team-list {
+  display: flex;
+  gap: 24px;
+  padding-bottom: 120px;
+  padding-left: 156px;
+  padding-right: 156px;
 }
 
 .team-item {
   background-color: #ffffff;
+  width: calc((100% - 3 * 24px) / 4);
 }
 
 .team-image {
