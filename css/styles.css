@@ -269,9 +269,9 @@ footer {
 .footer-container {
   display: flex;
   flex-direction: column;
-}
-
-.footer-logo {
+  gap: 16px;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .footer-logo-part {
@@ -290,4 +290,6 @@ footer {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
+  width: 264px;
+  height: 72px;
 }
