@@ -269,7 +269,9 @@ footer {
 .footer-container {
   display: flex;
   flex-direction: column;
-  gap: 16px;
+}
+
+.footer-logo {
 }
 
 .footer-logo-part {
