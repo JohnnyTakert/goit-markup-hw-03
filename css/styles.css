@@ -181,8 +181,6 @@ button {
 .content-list {
   display: flex;
   gap: 24px;
-  padding-left: 156px;
-  padding-right: 156px;
 }
 
 .content-item {
@@ -236,6 +234,11 @@ button {
 }
 
 .team-image {
+  margin-bottom: 32px;
+}
+
+.img-text {
+  margin-bottom: 32px;
 }
 
 .team-subtitle {
@@ -245,6 +248,7 @@ button {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 
 .team-item-text {
