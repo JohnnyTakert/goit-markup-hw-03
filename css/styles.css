@@ -17,7 +17,7 @@ p {
 ul,
 ol {
   list-style: none;
-  padding-left: 0;
+  padding: 0;
   margin: 0;
 }
 
@@ -40,7 +40,7 @@ button {
 }
 
 .container {
-  width: 1158px;
+  max-width: 1158px;
   padding: 0 15px;
   margin: 0 auto;
 }
@@ -116,7 +116,14 @@ button {
 }
 
 .business {
+}
+
+.business-wrap {
   background-color: #2e2f42;
+  padding: 188px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .business-title {
@@ -126,6 +133,8 @@ button {
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
+  margin-bottom: 48px;
+  max-width: 496px;
 }
 
 .business-service-btn {
@@ -157,13 +166,23 @@ button {
   overflow: hidden;
 }
 
+.content-wrap {
+  display: flex;
+}
+
 .content-title {
 }
 
 .content-list {
+  display: flex;
+  gap: 24px;
+  padding: 120px 156px;
 }
 
 .content-item {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
 }
 
 .content-subtitle {
