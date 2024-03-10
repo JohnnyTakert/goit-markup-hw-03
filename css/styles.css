@@ -329,6 +329,7 @@ footer {
 
 .footer-logo {
   margin-bottom: 16px;
+  display: inline-block;
 }
 
 .footer-logo-part {
@@ -339,6 +340,7 @@ footer {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #f4f4fd;
+  display: inline-block;
 }
 
 .footer-link {
